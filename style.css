@@ -57,6 +57,10 @@ a {
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    margin: -0.5%;
+    padding: 40px;
 }
 
 body {
@@ -71,7 +75,7 @@ body {
 .main {
     display: flex;
     align-items: center;
-    gap: 15%;
+    gap: 30%;
 
 }
 
@@ -90,43 +94,74 @@ body {
 }
 
 
-.infot{
+.img p {
     display: flex;
-    justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
-#infot{
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-    }
-.img{
-    border: #3882F6;
-    padding:50px 30px 50px 30px;
-    border-radius: 18px;
-    background-color: #1F2937;
-}
 
-.images{
-    display: flex;
-}
-.quote{
-    padding: 5% ;
+
+.quote {
+    padding: 5%;
     border: transparent;
     margin: -8px;
     font-size: 36px;
-    font-style:  italic;
+    font-style: italic;
     color: #1F2937;
+    display: flex;
+
+    flex-wrap: wrap-reverse;
 }
-.credit{
+
+.credit {
+    display: flex;
+    align-self: end;
+    margin-top: 0%;
+
+
+}
+
+.quo {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 0 200px;
+
+}
+
+.signup {
     display: flex;
     justify-content: center;
-    
-    
+    padding: 90px 30px 90px 30px;
+
 }
-.quo{
+
+.signb {
     display: flex;
-   
-    padding: 30px;
+    background: #3882F6;
+    flex-direction: rowr;
+
+    border: transparent;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 50px 70px 50px 70px;
+    width: 65rem;
+
+    gap: 10%;
+
+    justify-content: center;
+}
+
+.button2 {
+    background-color: #3882F6;
+    border: 5;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 6PX;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+}
+
+.button12 {
+    align-self: center;
 }
